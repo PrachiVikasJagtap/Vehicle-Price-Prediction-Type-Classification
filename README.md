@@ -1,28 +1,25 @@
-# Vehicle-Price-Prediction-Type-Classification
+#Vehicle Price Prediction & Type Classification
+Tech Stack: Python, Pandas, NumPy, Scikit-learn, Gradient Boosting Regressor, Random Forest Classifier, PostgreSQL, Jupyter Notebook
 
-Tech Stack: Python, Scikit-learn, Pandas, NumPy, PostgreSQL, Gradient Boosting Regressor, Random Forest Classifier, Jupyter Notebook
+**Overview:**
+A machine learning project that predicts the price of a vehicle and determines whether it’s a Car, Bike, or Scooty based on features such as brand, model, transmission type, fuel type, fuel tank capacity, and mileage.
 
-Project Overview:
-This project is an end-to-end ML application designed to predict the price of a vehicle and determine its type (Car, Bike, or Scooty) based on user-provided details. It simulates a real-world automotive dataset and integrates a relational database for data storage and retrieval.
+**Key Features:
+**
+**Database Integration:** PostgreSQL connected with Jupyter Notebook for dataset management.
 
-Key Features:
+**Price Prediction: **GradientBoostingRegressor for continuous price prediction.
 
-Database Integration: Connected PostgreSQL with Jupyter Notebook to store and retrieve dummy vehicle data for model training/testing.
+**Type Classification: **RandomForestClassifier for multi-class classification.
 
-Price Prediction: Implemented GradientBoostingRegressor to predict the vehicle price based on features such as brand, transmission type, fuel type, fuel tank capacity, and mileage.
+**Interactive Input:** Takes vehicle name as input and outputs predicted price & type.
 
-Type Classification: Utilized RandomForestClassifier to classify vehicles into Car, Bike, or Scooty categories.
+**ML Workflow:** Data cleaning, preprocessing, feature engineering, model training, and tuning.
 
-User Interaction: Accepts vehicle name from the user and outputs both predicted price and predicted type.
+**Dummy Dataset:** Simulates real-world vehicle data for training/testing.
 
-ML Workflow: Includes data preprocessing, feature engineering, model training, hyperparameter tuning, and evaluation.
+**Example:**
 
-Scalability Ready: Structure allows for easy integration with live vehicle datasets and deployment into a web application.
+Input: "Honda Activa 6G"
 
-Example Flow:
-
-User inputs: "Honda Activa 6G".
-
-Model queries PostgreSQL for relevant details.
-
-System predicts: Price ≈ ₹80,000 | Type = Scooty.
+Output: Predicted Price: ₹80,000 | Predicted Type: Scooty
