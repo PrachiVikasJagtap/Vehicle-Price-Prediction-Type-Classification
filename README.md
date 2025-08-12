@@ -1,4 +1,5 @@
 #Vehicle Price Prediction & Type Classification
+
 Tech Stack: Python, Pandas, NumPy, Scikit-learn, Gradient Boosting Regressor, Random Forest Classifier, PostgreSQL, Jupyter Notebook
 
 **Overview:**
